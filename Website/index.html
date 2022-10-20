@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seyka Studio | Free Online Video Games</title>
+    <meta name="description" content="Seyka Studio is an indie game development studio based in Ottawa, Canada. All our games are free - come check them out!">
+
+
+    <!-- IMAGES -->
+    <link rel="icon" href="images/LOGO/s_logo_nobg.png"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="animation/aos.css"/> <!--https://github.com/michalsnik/aos/tree/v2-->
+
+  </head>
+  <body>
+    <script>
+      $(function() {
+         $('#navbar__menu a').click(function() {
+            $('#navbar__menu a').removeClass();
+            $($(this).attr('href')).addClass('active');
+         });
+      });
+    </script>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="strt">
+          <a href="/" id="navbar__logo">
+            <img src="images/LOGO/png_ccc.png" alt="Seyka Studio" width="80"/>
+          </a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu" id="navbar__menu">
+            <li class="navbar__item">
+              <a href="/" class="navbar__links link-active">HOME&nbsp</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/games.html" class="navbar__links">GAMES&nbsp</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/about.html" class="navbar__links">ABOUT&nbsp</a>
+            </li>
+            <li class="navbar__item">
+              <a href="/contact.html" class="navbar__links">CONTACT&nbsp</a>
+            </li>
+          </ul>  
+        </div>
+        <div class="nd">
+          <ul class="navbar__rightside">
+            <li class="navbar__btn">
+              <a href="https://play.unity.com/u/SeykaStudio" target="_blank" class="nav__button">PLAY NOW</a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h2 data-aos="zoom-in">Introducing</h2>
+          <h1 data-aos="zoom-in" data-aos-delay="450">Seyka Studio</h1>
+          <p data-aos="zoom-in" data-aos-delay="1200">The Best for Free Online Gaming</p>
+          <a data-aos="zoom-in" data-aos-delay="1700" href="#scroll__target1"><button class="main__btn">Explore</button></a>
+        </div>
+        <div class="main__img--container" data-aos="zoom-in" data-aos-delay="1900" data-aos-offset="-200">
+          <img id="main__img" src="images/LOGO/grey_bg.png" alt="Seyka Logo"/>
+          <img id="shadow" src="images/shadow.png" alt="shadow">
+        </div>
+      </div>
+      <div class="scrolldown">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- Game Cards section-->
+    <div class="game__cards__main" id="scroll__target1">
+      <h3 data-aos="fade-down" data-aos-offset="200">
+        <span class="prefix">Releasing </span
+        ><span class="suffix"> in 2022</span>
+      </h3>
+      <p></p>
+      <div class="game__cards__container">
+    <a href="/games.html" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200">
+          <div class="game__cards__cards">
+            <h2>Feather Fox</h2>
+            <p>February 2022</p>
+          </div>
+        </a>
+        <a href="/games.html" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="200">
+          <div class="game__cards__cards game__cards__cards__2">
+            <h2>4 AM</h2>
+            <p>August 2022</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    
+
+    <!-- ABOUT SECTION -->
+    <div class="about__title"><h3 data-aos="fade-right" data-aos-duration="1500">About</h3></div>
+    <div class="about__main">
+      <div class="about__container">
+        <div class="about__content">
+          <h2 data-aos="fade-right"
+          data-aos-easing="ease-out">Who?</h2>
+          <p data-aos="fade-right"
+          data-aos-easing="ease-out">
+            Seyka Studio is an indie game development company based in Ottawa,
+            Canada. Launched in early 2022, it's a place where all gamers can enjoy simple and fun video games without having to break the bank.
+            
+          </p>
+          <div class="about__why">
+            <h2 data-aos="fade-right"
+            data-aos-easing="ease-out">Why?</h2>
+            <p data-aos="fade-right"
+            data-aos-easing="ease-out">
+            Our mission is to make free online games available to everyone all around the world. We want to grow the gaming community by creating environments where players can spend time honing their talents.
+            </p>
+          </div>
+            <a data-aos="fade-right" data-aos-offset="30" href="/about.html"><button class="main__btn about__btn">Learn More</button></a>
+          </div>
+        <div data-aos="fade-right" class="earth__container"><div class="earth__rotate"></div></div>
+      </div>
+    </div>
+
+    <!--CONNECT SECTION-->
+    <div class="connect__main">
+      <h2 data-aos="fade-in" data-aos-duration="1500">Connect with us!</h2>
+      <h4 data-aos="fade-in" data-aos-duration="1500">Become a member of the Seyka Squad!</h4>
+      <div class="connect__container">
+        <div class="connect__unit connect__ig" data-aos="fade-right" data-aos-duration="1500">
+          <img src="images/ig_icon.png" class="ig__icon" alt="instagram" width="70px">
+          <h3>Instagram</h3>
+          <p>Learn about news and updates.</p>
+          <a href="https://www.instagram.com/seykastudio/" target="_blank"><button class="main__btn ig__btn">Follow</button></a>
+        </div>
+        <div class="connect__unit connect__dc" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="200">
+          <img src="images/discord_icon.png" class="dc__icon" alt="discord" width="87px">
+          <h3>Discord</h3>
+          <p>Join the crew and meet players.</p>
+          <a href="https://discord.gg/D9u7BP36M6" target="_blank"><button class="main__btn ig__btn">Join</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM REDIRECT CONTROL-->
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted)
+        {submitted = false
+        ClearFields()
+        DisplayMessage()
+        }">
+    </iframe>
+ 
+
+    <!-- CONTACT FORM -->
+    <div class="contact__main">
+      <div class="contact__container">
+        <h2 data-aos="fade-up" data-aos-offset="100">Send us a message!</h2>
+        <p data-aos="fade-up" data-aos-offset="100">
+          We're open to business inquiries and would like to hear your
+          questions!
+        </p>
+        <form
+          class="contact__form"
+          autocomplete="off"
+          id="contact__form"
+          target="hidden_iframe"
+          onsubmit="submitted=true"
+          method="POST"
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf3dmhKnmOGVR9Yl8lt9LuqoYP8fZJ9F1WdrrMFFxvi6LCv_w/formResponse"
+        >
+          <div>
+            <input
+              class="form__control"
+              id="f1"
+              name="entry.474144142"
+              type="text"
+              placeholder="Name"
+              data-aos="fade-up"
+            />
+            <input
+              class="form__control email"
+              id="f2"
+              name="entry.1114401282"
+              type="email"
+              placeholder="Email"
+              oninvalid="this.setCustomValidity('Enter a valid email address')"
+              oninput="this.setCustomValidity('')"
+              required
+              data-aos="fade-up"
+            />
+          </div>
+          <div>
+            <input
+              class="form__large"
+              id="f3"
+              name="entry.1549354499"
+              type="text"
+              placeholder="Subject"
+              data-aos="fade-up"
+              data-aos-offset="150"
+            />
+          </div>
+          <div>
+            <textarea
+              name="entry.1378232799"
+              id="f4"
+              class="form__large"
+              placeholder="Message"
+              rows="4"
+              maxlength="500"
+              required
+              data-aos="fade-up"
+            ></textarea>
+          </div>
+          <div class="contact__btn" data-aos="fade-up" data-aos-offset="-150">
+            <button
+              type="submit" class="main__btn" id="submit__btn">Send Message</button>
+            </button>
+          </div>
+            <p id="success__msg" data-aos-offset="-50"></p>
+            <script>
+              function ClearFields() {
+                document.getElementById("f1").value = "";
+                document.getElementById("f2").value = "";
+                document.getElementById("f3").value = "";
+                document.getElementById("f4").value = "";
+              }
+
+              function DisplayMessage() {
+                document.getElementById("success__msg").innerHTML = "Success!";
+
+              }
+            </script>
+        </form>
+      </div>
+
+
+    <!-- FOOTER -->
+
+    <div class="t-rex">
+      <img class="dino" src="images/t-rex-runner.png" alt="t-rex" />
+    </div>
+    <div class="footer__main"></div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="animation/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000,
+        offset: 150
+      }
+      );
+    </script>
+  </body>
+</html>
