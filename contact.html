@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seyka Studio | Contact</title>
+    <meta name="description" content="We're open to business inquiries and would love to hear your questions! Leave us a message or find us on social media!">
+
+    <!-- IMAGES -->
+    <link rel="icon" href="images/LOGO/s_logo_nobg.png"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="games_styles.css"/>
+    <link rel="stylesheet" href="about_styles.css">
+    <link rel="stylesheet" href="contact_styles.css">
+    <link rel="stylesheet" type="text/css" href="animation/aos.css"/>
+
+
+    <!--- FONTS -->
+  </head>
+  <body>
+    <script>
+      $(function() {
+         $('#navbar__menu a').click(function() {
+            $('#navbar__menu a').removeClass();
+            $($(this).attr('href')).addClass('active');
+         });
+      });
+   </script>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="strt">
+        <a href="/" id="navbar__logo">
+          <img src="images/LOGO/png_ccc.png" alt="Seyka Studio"width="80"/>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu" id="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">HOME&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/games.html" class="navbar__links">GAMES&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/about.html" class="navbar__links">ABOUT&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/contact.html" class="navbar__links link-active">CONTACT&nbsp</a>
+          </li>
+        </ul>  
+      </div>
+        <div class="nd">
+        <ul class="navbar__rightside">
+          <li class="navbar__btn">
+            <a href="https://play.unity.com/mg/other/webgl-builds-147147" target="_blank" class="nav__button">PLAY NOW</a>
+          </li>
+        </ul> 
+      </div>
+      </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <body>
+      <div class="games__banner contact__banner">
+        <div class="overlay"></div>
+        <div class="separation"></div>
+    </div>
+    <div class="games__banner__text">
+        <h1 data-aos="fade-right">CONTACT</h1>
+        <hr>
+    </div>
+
+
+
+    <div class="tab-contact__body">
+        <div class="tab-contact__main__container">
+       
+          
+            
+         
+
+        
+         <!-- FORM REDIRECT CONTROL-->
+    <script type="text/javascript">
+      var submitted = false;
+    </script>
+
+    <iframe
+      name="hidden_iframe"
+      id="hidden_iframe"
+      style="display: none"
+      onload="if(submitted)
+        {submitted = false
+        ClearFields()
+        DisplayMessage()
+        }">
+    </iframe>
+ 
+
+    <!-- CONTACT FORM -->
+    <div class="contact__split1">
+      <h2 data-aos="fade-in" data-aos-duration="1500" data-aos-offset="-250" data-aos-delay="700">Find us on social media!</h2>
+      <p data-aos="fade-in" data-aos-duration="1500" data-aos-offset="-250" data-aos-delay="900">We often post news, annoucements and sneak peeks to upcoming games!</p>
+      <!--
+      <div class="social__media">
+        <div class="contact__ig">
+          <img src="images/ig_gif.gif" alt="">
+        </div>
+        <div class="contact__dc">
+          <img src="images/dc_gif.gif" alt="">
+        </div> 
+      </div>
+      -->
+      <div class="connect__container">
+        <div class="connect__unit connect__ig" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="-250" data-aos-delay="500">
+          <img src="images/ig_icon.png" class="ig__icon" alt="instagram icon" width="70px">
+          <h3>Instagram</h3>
+          <a href="https://www.instagram.com/seykastudio/" target="_blank"><button class="main__btn ig__btn">Follow</button></a>
+        </div>
+        <div class="connect__unit connect__dc" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="-250" data-aos-delay="500">
+          <img src="images/discord_icon.png" class="dc__icon" alt="discord icon" width="87px">
+          <h3>Discord</h3>
+          <a href="https://discord.gg/D9u7BP36M6" target="_blank"><button class="main__btn ig__btn">Join</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="contact__middle">
+      <h2>Or</h2>
+    </div>
+    <div class="contact__main second__contact">
+      <div class="contact__container">
+        <h2 data-aos="fade-up" data-aos-offset="-200">Leave us a message!</h2>
+        <p data-aos="fade-up" data-aos-offset="-100">
+          We're open to business inquiries and would like to hear your
+          questions!
+        </p>
+        <form
+          class="contact__form"
+          autocomplete="off"
+          id="contact__form"
+          target="hidden_iframe"
+          onsubmit="submitted=true"
+          method="POST"
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf3dmhKnmOGVR9Yl8lt9LuqoYP8fZJ9F1WdrrMFFxvi6LCv_w/formResponse"
+        >
+          <div>
+            <input
+              class="form__control"
+              id="f1"
+              name="entry.474144142"
+              type="text"
+              placeholder="Name"
+              data-aos="fade-up"
+              data-aos-offset="-200"
+            />
+            <input
+              class="form__control email"
+              id="f2"
+              name="entry.1114401282"
+              type="email"
+              placeholder="Email"
+              oninvalid="this.setCustomValidity('Enter a valid email address')"
+              oninput="this.setCustomValidity('')"
+              required
+              data-aos="fade-up"
+              data-aos-offset="-200"
+            />
+          </div>
+          <div>
+            <input
+              class="form__large"
+              id="f3"
+              name="entry.1549354499"
+              type="text"
+              placeholder="Subject"
+              data-aos="fade-up"
+              data-aos-offset="-210"
+            />
+          </div>
+          <div>
+            <textarea
+              name="entry.1378232799"
+              id="f4"
+              class="form__large"
+              placeholder="Message"
+              rows="4"
+              maxlength="500"
+              required
+              data-aos="fade-up"
+              data-aos-offset="-210"
+            ></textarea>
+          </div>
+          <div class="contact__btn" data-aos="fade-up" data-aos-offset="-150">
+            <button
+              type="submit" class="main__btn" id="submit__btn">Send Message</button>
+            </button>
+          </div>
+            <p id="success__msg"></p>
+            <script>
+              function ClearFields() {
+                document.getElementById("f1").value = "";
+                document.getElementById("f2").value = "";
+                document.getElementById("f3").value = "";
+                document.getElementById("f4").value = "";
+              }
+
+              function DisplayMessage() {
+                document.getElementById("success__msg").innerHTML = "Success!";
+
+              }
+            </script>
+        </form>
+        </div>
+      </div>
+      </div>
+
+
+        
+
+      <!-- FOOTER -->
+      <div class="t-rex">
+        <img class="dino" src="images/t-rex-runner.png" alt="t-rex"/>
+      </div>
+      <div class="footer__main"></div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="animation/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000,
+        offset: 150
+      }
+      );
+    </script>
+  </body>
+</html>

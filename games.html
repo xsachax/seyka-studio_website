@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seyka Studio | Games</title>
+    <meta name="description" content="Feather Fox is officialy released! Play it for free now!">
+
+    <!-- IMAGES -->
+    <link rel="icon" href="images/LOGO/s_logo_nobg.png"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="games_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="animation/aos.css"/>
+
+
+    <!--- FONTS -->
+  </head>
+  <body>
+    <script>
+      $(function() {
+         $('#navbar__menu a').click(function() {
+            $('#navbar__menu a').removeClass();
+            $($(this).attr('href')).addClass('active');
+         });
+      });
+   </script>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="strt">
+        <a href="/" id="navbar__logo">
+          <img src="images/LOGO/png_ccc.png" alt="Seyka Studio" width="80"/>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu" id="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">HOME&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/games.html" class="navbar__links link-active">GAMES&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/about.html" class="navbar__links">ABOUT&nbsp</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/contact.html" class="navbar__links">CONTACT&nbsp</a>
+          </li>
+        </ul>  
+      </div>
+        <div class="nd">
+        <ul class="navbar__rightside">
+          <li class="navbar__btn">
+            <a href="https://play.unity.com/mg/other/webgl-builds-147147" target="_blank" class="nav__button">PLAY NOW</a>
+          </li>
+        </ul> 
+      </div>
+      </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <body>
+      <div class="games__banner">
+        <div class="overlay"></div>
+        <div class="separation"></div>
+      </div>
+      <div class="games__banner__text">
+        <h1 data-aos="fade-right">GAMES</h1>
+        <hr>
+      </div>
+
+
+
+
+
+
+      <div class="games__content__body">
+        <div class="body__container trs">
+          <div class="games__container">
+            <div class="feather-fox">
+              <a href="https://play.unity.com/mg/other/webgl-builds-147147" target="_blank"><img src="images/ff_cover.png" alt="feather fox" class="feather-fox-img" data-aos="zoom-in" data-aos-offset="-200" data-aos-delay="500" data-aos-duration="1500"></a>
+              <h2 data-aos="fade-in"
+              data-aos-easing="ease-out" data-aos-offset="-120">Feather Fox</h2>
+              <p data-aos="fade-in"
+              data-aos-easing="ease-out" data-aos-offset="-120">Navigate trough obstacles, travel at fast speeds and  try to survive in this fast-paced endless platformer. 
+              The near impossible challenges will leave you screaming in frustration, but you'll keep coming back for more. Single touch 2D adventure.
+              </p>
+              <div class="collapsible__section" data-aos="fade-in" data-aos-offset="-120">
+
+                <div class="collapsible__content">
+                  <h4>Release</h4>
+                  <ul><li>February 2022</li></ul>
+
+                  <h4>Game Type</h4>
+                  <ul>
+                    <li>Single Player</li>
+                    <li>2D Platformer</li>
+                    <li>One touch</li>
+                  </ul>
+                  <h4>Features</h4>
+                  <ul>
+                    <li>Simple controls</li>
+                    <li>Unique textures and color changes</li>
+                    <li>Spikes, bounce pads and various obstacles</li>
+                    <li>Increasing speed and difficulty</li>
+                  </ul>
+                </div>
+
+                <button type="button" class="collapsible__button" value = "on" id="cb1" onclick="changeName('cb1')">Show More &nbsp</button>
+              </div>
+            </div>
+
+
+            <div class="four-am">
+              <img src="images/4am-bg.png" alt="4am" class="four-am-img" data-aos="zoom-in" data-aos-offset="-200" data-aos-delay="800" data-aos-duration="1500">
+              <h2 data-aos="fade-in"
+              data-aos-easing="ease-out" data-aos-offset="-120">4 AM</h2>
+              <p data-aos="fade-in"
+              data-aos-easing="ease-out" data-aos-offset="-120">There's nothing like the vibe of a late night drive. 
+              Avoid obstacles, collect power-ups and level up as you gain speed and travel through the night. 
+              But you must hurry because the clock is ticking and your time is running out. 
+              Will you survive until morning?</p>
+              <div class="collapsible__section" data-aos="fade-in" data-aos-offset="-120">
+
+
+                  <div class="collapsible__content">
+                    <h4>Release</h4>
+                  <ul><li>Coming Soon</li></ul>
+
+                    <h4>Game Type</h4>
+                  <ul>
+                    <li>Single Player</li>
+                    <li>3D Endless</li>
+                    <li>Side swiper</li>
+                  </ul>
+                  <h4>Features</h4>
+                  <ul>
+                    <li>Various roads and locations</li>
+                    <li>Custom soundtracks and sound effects</li>
+                    <li>Adjustable difficulties</li>
+                    <li>Powerups, challenges and unlockable vehicles</li>
+                  </ul>
+                </div>
+                  
+
+
+                  <button type="button" class="collapsible__button" value ="on" id="cb2" onclick="changeName('cb2')">Show More &nbsp</button>
+              </div>
+            </div>
+        </div>
+      </div>
+          <div class="countdown">
+            <h2 data-aos="fade-in" data-aos-offset="-25">It's almost time!</h2>
+            <p data-aos="fade-in" data-aos-offset="-25">Don't miss the official release of our next game in:</p>
+          <div id="countdown__timer" class="countdown__container">
+            <div id="days" class="countdown__block" data-aos="fade-up" data-aos-offset="-25"></div>
+            <div id="hours" class="countdown__block" data-aos="fade-up" data-aos-offset="-25"></div>
+            <div id="minutes" class="countdown__block" data-aos="fade-up" data-aos-offset="-25"></div>
+            <div id="seconds" class="countdown__block" data-aos="fade-up" data-aos-offset="-25"></div>
+          </div>
+        </div>
+      
+      </div>
+
+      <!-- FOOTER -->
+      <div class="games__page__bottom">
+        <h2 data-aos="fade-in" data-aos-offset="0">More Coming Soon</h2>
+        <p data-aos="fade-in" data-aos-offset="0">Connect with us on social media to be notified about news and updates!</p>
+      </div>
+      <div class="t-rex t-rex__games">
+        <img class="dino" src="images/t-rex-runner.png" alt="t-rex" />
+      </div>
+      <div class="footer__main footer__games"></div>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="animation/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1000,
+        offset: 150
+      }
+      );
+    </script>
+  </body>
+</html>
